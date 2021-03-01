@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="col-md-8 mb-3">
+    <div class="row">
+        
+        <div class="col-md-6">
+            <label ><h3>Name</h3></label>
+            <input class="form-control d-block w-100" placeholder="Enter name" id="name" type="text">
+        </div>
+        <div class="col-md-6 ">
+            <label ><h3>Starting price</h3></label>
+            <input class="form-control d-block w-100" placeholder="Enter price in $" type="number" id="startingBil">
+        </div>
+    </div>
+    </div>
+    <div class="row">
+    
+        <div class="col-md-8 mb-3">
+            
+            <label for="education"><h3>Education</h3></label>
+          <select class="custom-select d-block w-100" id="education">
+            <option value="1.5">Undergraduate degree</option>
+            <option value="1.2">College degree</option>
+            <option value="1.05">High school degree</option>
+            <option value="0.9">Middle school degree</option>
+          </select>
+        </div>
+        <div class="col-md-8 mb-3">
+          <label for="family"><h3>Family Net Worth</h3></label>
+          <select class="custom-select d-block w-100" id="family">
+            <option value="2">More than 100,000$</option>
+            <option value="1.5">Between 50,000$ and 100,000$</option>
+            <option value="1.2">Less than 50,000$</option>
+          </select>
+        </div>
+    </div>
+      
+        
+            
+       
+    
+    
+        <div class="row">
+            
+            
+
+            <div class="col-md-8 mb-2 ">
+                <label><h3>Skills</h3></label><br>
+                <div class="row">
+                <div class="col-md-6 mb-2 ">
+            <div class="custom-control custom-checkbox checkbox-lg">
+                <input type="checkbox" class="custom-control-input abilities" id="1" value="100" >
+                <label class="custom-control-label" for="1">Playing on dombra</label>
+            </div>
+            <div class="custom-control custom-checkbox checkbox-lg">
+                <input type="checkbox" class="custom-control-input abilities" id="2" value="200">
+                <label class="custom-control-label" for="2">Good cook</label>
+            </div>
+            </div>
+            
+            <div class="col-md-6 mb-2 ">
+            <div class="custom-control custom-checkbox checkbox-lg">
+                <input type="checkbox" class="custom-control-input abilities" id="3" value="150">
+                <label class="custom-control-label" for="3">Easygoing character</label>
+            </div>
+            <div class="custom-control custom-checkbox checkbox-lg">
+                <input type="checkbox" class="custom-control-input abilities" id="4" value="100">
+                <label class="custom-control-label" for="4">Sings well</label>
+            </div>
+            </div>
+            
+            </div>
+            </div>
+        
+            <!--<input type="checkbox" class="abilities" value="100">Playing on dombra
+            <input type="checkbox" class="abilities" value="200">Good cook
+            <input type="checkbox" class="abilities" value="150">Easygoing character
+            <input type="checkbox" class="abilities" value="100">Sings well*-->
+            
+
+            <div class="col-md-8 mb-3" >
+                <label><h2>Age</h2></label><br>
+                
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio"  name="age" value="1.5" id="5" class="custom-control-input">
+                    <label class="custom-control-label" for="5">Between 18-23</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" name="age" value="1.2" id="6" class="custom-control-input">
+                    <label class="custom-control-label" for="6">Between 24-27</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" name="age" value="0.95" id="7" class="custom-control-input">
+                    <label class="custom-control-label" for="7">Over 28</label>
+                </div>
+                
+            
+            <!--<p><input type="radio" name="age" value="1.5">Between 18-23</p><Br>
+            <p><input type="radio" name="age" value="1.2">Between 24-27</p><Br>
+            <p><input type="radio" name="age" value="0.95">28+</p><Br>-->
+            
+            </div>
+
+
+
+            <div class="col-md-8 mb-3" >
+                <label><h3>Reputation</h3></label><br>
+                <div class="custom-control custom-checkbox checkbox-lg">
+                    <input type="checkbox" class="custom-control-input gossips" id="8" value="0.85" >
+                    <label class="custom-control-label" for="8">Gossips about parent's attitude</label>
+                </div>
+                <div class="custom-control custom-checkbox checkbox-lg">
+                    <input type="checkbox" class="custom-control-input gossips" id="9"value="0.95">
+                    <label class="custom-control-label" for="9">Gossips about character</label>
+                </div>
+                <div class="custom-control custom-checkbox checkbox-lg">
+                    <input type="checkbox" class="custom-control-input gossips" id="10" value="-200">
+                    <label class="custom-control-label" for="10">Gossips about around person</label>
+                </div>
+                
+            </div>
+        <!--<label>Reputation</label><Br>
+        <input type="checkbox" class="gossips" value="0.85">Gossips about parent's attitude<Br>
+        <input type="checkbox" class="gossips" value="0.95">Gossips about character<Br> 
+        <input type="checkbox" class="gossips" value="-200">Gossips about around person<Br> -->
+
+            <div class="col-md-8 mb-3">
+                <label for="love_letter">Example textarea</label>
+                <textarea class="form-control" id="love_letter" rows="3"></textarea>
+              </div>
+
+
+            <center><label ><h2 id="answer"></h2></label></center>
+            <div class="col-md-8 mb-3">
+            <button id="resultButton" type="button" class="btn btn-primary btn-lg btn-block">Enter</button>
+            <button style="display: none;" id="retryButton" type="button" class="btn btn-primary btn-lg btn-block">Retry</button>
+        </div>
+        </div>
+
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
