@@ -96,7 +96,7 @@ function calculate() {
 
     /*Result*/
     console.log(Math.round(result));
-    if(isNaN(Math.round(result)) || result==0 || name == ""){
+    if(isNaN(Math.round(result)) || result==0 || name == null){
         alert("Error");
         location.reload();
       //  document.getElementById("answer").innerHTML="Error: You missed the age";
